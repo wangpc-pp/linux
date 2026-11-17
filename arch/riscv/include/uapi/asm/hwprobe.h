@@ -124,6 +124,7 @@ struct riscv_hwprobe {
 #define		RISCV_HWPROBE_EXT_ZA64RS	_BITULL(5)
 #define		RISCV_HWPROBE_EXT_B		_BITULL(6)
 #define		RISCV_HWPROBE_EXT_ZIC64B	_BITULL(7)
+#define		RISCV_HWPROBE_EXT_ZILX		_BITULL(8)
 
 /* Increase RISCV_HWPROBE_MAX_KEY when adding items. */
 

@@ -431,3 +431,6 @@ The following keys are defined:
   * :c:macro:`RISCV_HWPROBE_EXT_ZIC64B`: The Zic64b extension is supported,
     as defined in the RISC-V Profiles specification starting from commit
     b1d80660 ("Updated to ratified state.")
+
+  * :c:macro:`RISCV_HWPROBE_EXT_ZILX`: The Zilx indexed integer load extension
+    is supported, as defined in version 0.8 of the RISC-V ISA manual.
