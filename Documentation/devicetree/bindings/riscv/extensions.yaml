@@ -653,6 +653,11 @@ properties:
             encodings, as ratified in commit f88abf1 ("Integrating
             load/store pair for RV32 with the main manual") of riscv-isa-manual.
 
+        - const: zilx
+          description:
+            The standard Zilx extension for indexed integer load instructions,
+            as defined in version 0.8 of the RISC-V ISA manual.
+
         - const: zimop
           description:
             The standard Zimop extension version 1.0, as ratified in commit
