@@ -537,6 +537,12 @@ properties:
             in commit 64074bc ("Update version numbers for Zfh/Zfinx") of
             riscv-isa-manual.
 
+        - const: zibi
+          description:
+            The standard Zibi extension for conditional branches that compare an
+            integer register with a small immediate constant, as defined in
+            version 0.99 of the RISC-V Branch with Immediate extension.
+
         - const: zic64b
           description:
             The standard Zic64b extension for 64-byte naturally aligned cache
